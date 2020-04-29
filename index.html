@@ -20,7 +20,10 @@
 
 <body>
 	<nav id="site-navigation" class="main-navigation menu-left">
-	<img src="img/oaahr.png" class="logo" id="target" alt="OAN" draggable="false">	
+		
+		<div id="target">
+		<img src="img/oaahr.png" class="logo" id="logotarget" alt="OAN" draggable="false">	
+		</div>
       <ul id="menu-menu_list" class="menu">
         <li><a>Home</a></li>
         <li><a>Chi siamo</a></li>
@@ -34,8 +37,14 @@
 	<script>
 		var controller = new ScrollMagic.Controller();
 
-		var tween = TweenMax.to("#target", 1, {backgroundColor: "none", y: "+=170", width: "-=300"});
+		var tween = TweenMax.to("#target", 1, {backgroundColor: "none", y: "+=170"});
 
+		var tween2 = TweenMax.to("#logotarget", 1, {backgroundColor: "none", width: "-=300"});
+
+		var scene2 = new ScrollMagic.Scene({offset: 0, duration: 200})
+										.setTween(tween2)
+										.addTo(controller);
+		
 		var scene = new ScrollMagic.Scene({offset: 0, duration: 200})
 										.setTween(tween)
 										.addTo(controller);
