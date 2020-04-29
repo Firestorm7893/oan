@@ -2,11 +2,17 @@
 .topnav {
   background-color: white;
   overflow: hidden;
+  left: 50%;
+	  position: relative;
+
+
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-	font-weight: bold;
+	
+  margin: 0 auto;
+  font-weight: bold;
   float: left;
   display: block;
   color: black;
@@ -15,7 +21,15 @@
   text-decoration: none;
   font-size: 17px;
   transition: 0.3s;
-  border-right: 1px solid black;
+  background-image: url('../img/separator.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 7px ;
+}
+
+.topnav a :last-child {
+	background: none;
+	
 }
 
 /* Change the color of links on hover */
