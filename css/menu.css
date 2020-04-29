@@ -1,20 +1,14 @@
 .main-navigation {
     clear: both;
-    /* REMOVE this
-    display: table;
-    */
     font-weight: 300;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
-    position: relative;
     text-align: center;
     background: white;
-    /* and REMOVE this
-    height: 43px;
-    */
-    width: 80%;
-    /*  ADD this */
-    margin: 0 auto;
+	position: -webkit-sticky; /* Safari */
+  	position: sticky;
+  	top: 0px;
+	padding:  20px;
 }
 
 .main-navigation ul {
@@ -30,20 +24,7 @@
     text-transform: initial;
     white-space: nowrap;
 }
-.main-navigation.menu-right{
-    text-align: right;
-}
-.main-navigation.menu-center{
-    text-align: center;
-}
-.main-navigation.menu-right li{
-    margin-left: 25px;
-    margin-right:0;
-}
-.main-navigation.menu-center li{
-    margin-left: 12px;
-    margin-right:12px;
-}
+
 
 /*DEFINIZIONE DEI FONT*/
 .main-navigation a {
