@@ -13,3 +13,8 @@
 * {
 	font-family: 'abeatbyKai';
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
