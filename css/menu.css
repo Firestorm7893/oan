@@ -15,11 +15,11 @@
   text-decoration: none;
   font-size: 17px;
   transition: 0.3s;
+  border-right: 1px solid black;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
   color: #3F66FF;
   transition: 0.3s;
 
@@ -27,7 +27,6 @@
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #4CAF50;
   color: #3F66FF;
   transition: 0.3s;
 
