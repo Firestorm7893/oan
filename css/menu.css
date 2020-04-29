@@ -2,16 +2,11 @@
 .topnav {
   background-color: white;
   overflow: hidden;
-  left: 50%;
-	  position: relative;
-
-
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
 	
-  margin: 0 auto;
   font-weight: bold;
   float: left;
   display: block;
@@ -21,6 +16,7 @@
   text-decoration: none;
   font-size: 17px;
   transition: 0.3s;
+	
   background-image: url('../img/separator.png');
   background-position: right;
   background-repeat: no-repeat;
