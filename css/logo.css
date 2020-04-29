@@ -1,6 +1,14 @@
 .logo {
-	
+	position: absolute;
 	padding-top: 30px;
 	padding-left: 100px;
 	
+	top: -180px;
+	left: -30px;
+}
+
+.logofixed {
+	padding-top: 30px;
+	padding-left: 100px;
+	opacity: 0;
 }
