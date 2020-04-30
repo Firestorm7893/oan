@@ -3,16 +3,14 @@ var btns = document.getElementsByClassName("menubtn");
 
 var i = 0;
 
-for(i = 0; i < btns.length; i++){
-	
-	alert("#" + btns[i].id + " " + window.location.hash);
-	
+for(i = 0; i < btns.length; i++){	
 	if("#" + btns[i].id == window.location.hash){
 	
 		$("#mydiv").load("./pages/" + btns[i].id +".html");
+		btns[i].className += " active";
 		break;
 	} else if(i == btns.length-1){
-		
+		$("#home").className += " active";
 		$("#mydiv").load("./pages/home.html");
 	}
 }
