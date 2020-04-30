@@ -13,6 +13,8 @@
   height: 30px;
   width: 30px;
   background: #CCC;
+	left: -750px;
+	top: -50px;
 }
 .eye:after { /*pupil*/
   position: absolute;
