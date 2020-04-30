@@ -44,16 +44,10 @@
 	<script>
 
 	var controller = new ScrollMagic.Controller();
-	var tween = TweenMax.to("#target", 1, {backgroundColor: "none", y: "+=170"});
-	var tween2 = TweenMax.to("#logotarget", 1, {backgroundColor: "none", width: "-=300"});
-
-	var scene2 = new ScrollMagic.Scene({offset: 0, duration: 200})
-											.setTween(tween2)
-											.addTo(controller);
+	var tween = TweenMax.to("#logotarget", 1, {backgroundColor: "none", width: "-=300",y: "+=190"});
 
 	var scene = new ScrollMagic.Scene({offset: 0, duration: 200})
 											.setTween(tween)
-											.addIndicators()
 											.addTo(controller);
 	</script>
 </html>
