@@ -5,7 +5,7 @@ var i = 0;
 
 for(i = 0; i < btns.length; i++){
 	
-	alert("#" + btns[i].id + " " window.location.hash);
+	alert("#" + btns[i].id + " " + window.location.hash);
 	
 	if("#" + btns[i].id == window.location.hash){
 	
