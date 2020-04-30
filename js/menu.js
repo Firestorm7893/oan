@@ -26,3 +26,32 @@ for (i = 0; i < btns.length; i++) {
 	window.location.hash = "#" + this.id;
   });
 }
+
+
+
+document.getElementById('textanim').innerHTML = "";
+setInterval(replacetext, 250);
+
+var text = "NOVITA'";
+
+var direction = false;
+function replacetext(){
+	var currentstring = document.getElementById('textanim').innerHTML;
+	console.log(currentstring.length);
+	
+	if(currentstring.length==text.length){
+		direction=true;
+	}
+	if(!direction){
+	currentstring += text.charAt(currentstring.length);
+	} else {
+		currentstring = currentstring.substring(0,currentstring.length -1);
+		if(currentstring.length==0){
+			direction=false;
+		}
+	}
+	
+	document.getElementById('textanim').innerHTML = currentstring
+
+}
+
