@@ -27,26 +27,39 @@ for (i = 0; i < btns.length; i++) {
   });
 }
 
+var min = 100, max = 1000;
+//var cont = 0;
 
 
 document.getElementById('textanim').innerHTML = "";
-setInterval(replacetext, 250);
-
-var text = "NOVITA'";
+//if(cont>=3) {
+//	cont = 0;
+setInterval(replacetext, Math.random() * (max-min)+min);
+//} else {
+//	cont++;
+	
+//	setInterval(replacetext, last);
+//}
+	
+var textArray = ["NOVITA'","SEMPLICE","MORTE"]
+var index = 0;
 
 var direction = false;
 function replacetext(){
 	var currentstring = document.getElementById('textanim').innerHTML;
 	
-	if(currentstring.length==text.length){
+	if(currentstring.length==textArray[index].length){
 		direction=true;
 	}
 	if(!direction){
-	currentstring += text.charAt(currentstring.length);
+	currentstring += textArray[index].charAt(currentstring.length);
 	} else {
 		currentstring = currentstring.substring(0,currentstring.length -1);
 		if(currentstring.length==0){
 			direction=false;
+			index++;
+			if(index >textArray.length-1)
+					index = 0;
 		}
 	}
 	
