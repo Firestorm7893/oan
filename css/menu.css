@@ -114,7 +114,7 @@
 	background-image: url("../img/cursor.png");
 	background-repeat: no-repeat;
 	background-size: 13px;
-	background-position: 100%;
+	background-position: 95%;
 	overflow-x: hidden;
     animation: cursoranimation 1s infinite;
 
