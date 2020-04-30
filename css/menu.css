@@ -88,15 +88,17 @@
 	font-weight: bold;
 }
 .cursor .fixed{
+	white-space: nowrap;
 	font-size: 115px;
 	font-weight: bold;
 }
 .cursor .animation{
+	white-space: nowrap;
 	position: relative;
 	left:-40px;
 	font-size: 115px;
 	font-weight: normal;
 	background-image: url("../img/cursor.png");
 	background-repeat: no-repeat;
-	background-size: 100%,50%; 
+	background-size: contain; 
 }
