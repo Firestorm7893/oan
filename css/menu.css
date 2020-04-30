@@ -78,3 +78,25 @@
     -moz-transition:all 0.3s ease-in-out;
     -webkit-transition:all 0.3s ease-in-out;
 }
+
+
+.cursor {
+	position: absolute;
+	top: -90px;
+	left:450px;
+	font-size: 120px;
+	font-weight: bold;
+}
+.cursor .fixed{
+	font-size: 115px;
+	font-weight: bold;
+}
+.cursor .animation{
+	position: relative;
+	left:-40px;
+	font-size: 115px;
+	font-weight: normal;
+	background-image: url("../img/cursor.png");
+	background-repeat: no-repeat;
+	background-size: 100%,50%; 
+}
