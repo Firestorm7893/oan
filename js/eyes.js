@@ -22,14 +22,11 @@ function moveCircle(e) {
 }
 
 
-var flag = false;
 $($area).mouseenter(function(){
-	flag = true;
 	TweenLite.to($circle,0.4,{autoAlpha:1})
 	$($area).on('mousemove', moveCircle);
 });
 $($area).mouseout(function(){
-	flag = false;
 	TweenLite.to($circle,0.4,{autoAlpha:0})
 });
 
