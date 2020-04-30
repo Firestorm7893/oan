@@ -1,10 +1,8 @@
 $("#mydiv").load("./pages/home.html")
 
+const queryString = window.location.search;
+alert(queryString);
 
-var values = getUrlVars()
-for(i = 0; i < values.length; i++){
-	alert(values[i]);
-}
 
 
 var btns = document.getElementsByClassName("menubtn");
@@ -16,12 +14,4 @@ for (var i = 0; i < btns.length; i++) {
 	$("#mydiv").load("./pages/" + this.id +".html");
 	  window.location.hash = "#" + this.id;
   });
-}
-
-function getUrlVars() {
-    var vars = {};
-    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
-        vars[key] = value;
-    });
-    return vars;
 }
