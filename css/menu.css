@@ -82,23 +82,48 @@
 
 .cursor {
 	position: absolute;
-	top: -90px;
+	top: -92px;
 	left:450px;
 	font-size: 120px;
 	font-weight: bold;
 }
 .cursor .fixed{
 	white-space: nowrap;
-	font-size: 115px;
+	font-size: 121px;
 	font-weight: bold;
 }
 .cursor .animation{
 	white-space: nowrap;
 	position: relative;
-	left:-40px;
-	font-size: 115px;
+	left:-50px;
+	padding-top: 20px;
+	padding-right: 10px;
+	
+	font-size: 121px;
 	font-weight: normal;
+	overflow-x: hidden;
+
+
+}
+
+
+.blinker{
+	display: block;
+	position: absolute;
+    top: -150px; right: 0; bottom: 0; left: 0;
 	background-image: url("../img/cursor.png");
 	background-repeat: no-repeat;
-	background-size: contain; 
+	background-size: 13px;
+	background-position: 100%;
+	overflow-x: hidden;
+    animation: cursoranimation 1s infinite;
+
 }
+
+@keyframes cursoranimation {
+	10%{opacity: 1;}
+	49%{opacity: 1;}
+	60%{opacity: 0;}
+	100%{opacity: 0;}
+}
+
