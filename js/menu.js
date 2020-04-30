@@ -37,7 +37,6 @@ var text = "NOVITA'";
 var direction = false;
 function replacetext(){
 	var currentstring = document.getElementById('textanim').innerHTML;
-	console.log(currentstring.length);
 	
 	if(currentstring.length==text.length){
 		direction=true;
