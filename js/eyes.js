@@ -1,34 +1,7 @@
-import ScrollMagic from './ScrollMagic.js'
-import TweenMax from './TweenMax.min.js'
-import TweenLite from './TweenMax.min.js'
 
-
-var controller = new ScrollMagic.Controller();
-var tween = TweenMax.to("#logotarget", 1, {backgroundColor: "none", width: "-=300",y: "+=173"});
-
-var scene = new ScrollMagic.Scene({offset: 0, duration: 200})
-										.setTween(tween)
-										.addTo(controller);
-
-
-var $circle = $('.pupil'), $area = $('#eye');
-
-function moveCircle(e) {
-TweenLite.to($circle, 0.3, {
-	css: {
-		left: e.pageX-15,
-		top: e.pageY -200
-		}
-	});
+var doc;
+function ready(document){
+	
+	doc = document;
 }
-
-
-
-$($area).mouseenter(function(){
-	TweenLite.to($circle,0.4,{autoAlpha:1})
-	$($area).on('mousemove', moveCircle);
-});
-$($area).mouseout(function(){
-	TweenLite.to($circle,0.4,{autoAlpha:0})
-});
 
