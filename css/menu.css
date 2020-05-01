@@ -81,6 +81,7 @@
 
 
 .cursor {
+	white-space: nowrap;
 	position: absolute;
 	top: -92px;
 	left:450px;
@@ -107,6 +108,8 @@
 
 
 .blinker{
+	
+	white-space: nowrap;
 	display: block;
 	position: absolute;
     top: -150px; right: 0; bottom: 0; left: 0;
@@ -119,7 +122,9 @@
 }
 
 .blinkeractive{
-		display: block;
+	
+	white-space: nowrap;
+	display: block;
 	position: absolute;
     top: -150px; right: 0; bottom: 0; left: 0;
 	background-image: url("../img/cursor.png");
