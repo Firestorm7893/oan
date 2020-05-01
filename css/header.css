@@ -162,7 +162,7 @@ body {
     top: -150px; right: 0; bottom: 0; left: 0;
 	background-image: url("../img/cursor.png");
 	background-repeat: no-repeat;
-	background-size: 13px;
+	background-size: 0.5vw 6vw;
 	background-position: 95%;
 	overflow-x: hidden;
 	opacity: 1;
@@ -176,7 +176,7 @@ body {
     top: -150px; right: 0; bottom: 0; left: 0;
 	background-image: url("../img/cursor.png");
 	background-repeat: no-repeat;
-	background-size: 13px;
+	background-size: 0.5vw 6vw;
 	background-position: 95%;
 	overflow-x: hidden;
     animation: cursoranimation 0.5s infinite;
@@ -194,8 +194,8 @@ body {
 	padding-top: 30px;
 	padding-left: 100px;
 	
-	top: -170px;
-	left: -30px;
+	top: -170%;
+	left: 0%;
 }
 
 .logofixed {

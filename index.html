@@ -18,22 +18,23 @@
     <link rel="stylesheet" href="css/header.css">
     <title>Oan</title>
 </head>
-<img src="img/oaahr.png" class="logofixed" alt="OAN" draggable="false">
+<img src="img/oaahr.png" style="width: 20%" class="logofixed" alt="OAN" draggable="false">
 
 <body>
     <nav id="site-navigation" class="main-navigation menu-left">
-
+		<div class="logocontainer" style="position: absolute; top:0px; left:0px; width: 100%; height: 100px" >
         <div class="cursor">
-            <p class="fixed" style="display:inline">:</p>
-            <p class="animation" style="display:inline" id="textanim">
+            <p class="fixed" style="display:inline; font-size: 6vw">:</p>
+            <p class="animation" style="display:inline; font-size: 6vw" id="textanim">
                 <div class="blinker" id="blinkingcursor"></div>
             </p>
         </div>
 
-        <div id="target"> <img src="img/oaahr.png" class="logo" id="logotarget" alt="OAN" draggable="false">
+        <div id="target"> <img src="img/oaahr.png" style="width: 20%" class="logo" id="logotarget" alt="OAN" draggable="false">
             <div class="pupil"></div>
             <div id="eye"></div>
         </div>
+		</div>
         <ul id="menu-menu_list" class="menu">
             <li><a id="home" class="menubtn active">Home</a></li>
             <li><a id="chisiamo" class="menubtn">Chi siamo</a></li>
