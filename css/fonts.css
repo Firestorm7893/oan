@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'abeatbyKai';
+    src: url('../font/abeatbykai/AbeatbyKai.eot');
+    src: url('../font/abeatbykai/AbeatbyKai.eot?#iefix') format('embedded-opentype'),
+        url('../font/abeatbykai/AbeatbyKai.woff2') format('woff2'),
+        url('../font/abeatbykai/AbeatbyKai.woff') format('woff'),
+        url('../font/abeatbykai/AbeatbyKai.ttf') format('truetype'),
+        url('../font/abeatbykai/AbeatbyKai.svg#AbeatbyKai') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

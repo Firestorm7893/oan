@@ -1,7 +1,9 @@
 /* CSS Document */
+@import "css/fonts.css";
 
 .block {
 	float:left;
 	box-shadow: 0px 0px 5px 10px blue;
 	border-radius: 2px;
+	font-family: 'abeatbyKai';
 }
