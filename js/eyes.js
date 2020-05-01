@@ -4,25 +4,18 @@ const TweenLite = window.TweenLite;
 
 
 var controller = new ScrollMagic.Controller();
-var tween = TweenMax.to("#logotarget", 1, {backgroundColor: "none", width:"-=300", y:"-=20"});
-
+var tween = TweenMax.to("#logotarget", 1, {backgroundColor: "none", width:"-=300", y:-20, left:"250px"});
 var tween2 = TweenMax.to("#site-navigation", 1, {height: "-=173"});
-var tween3 = TweenMax.to("#menu-menu_list", 1, {y: "-=173"});
+var tween3 = TweenMax.to(".slideover", 1, {y: "-=173"});
 
+window.addEventListener("resize", displayWindowSize);
+function displayWindowSize(){
+	tween.invalidate;
+}
 
-var scene = new ScrollMagic.Scene({offset: 0, duration: 200})
-										.setTween(tween)
-										.addIndicators()
-										.addTo(controller);
-
-var scene2 = new ScrollMagic.Scene({offset: 0, duration: 200})
-										.setTween(tween2)
-										.addIndicators()
-										.addTo(controller);
-var scene3 = new ScrollMagic.Scene({offset: 0, duration: 200})
-										.setTween(tween3)
-										.addIndicators()
-										.addTo(controller);
+var scene = new ScrollMagic.Scene({offset: 0, duration: 200}).setTween(tween).addTo(controller);
+var scene2 = new ScrollMagic.Scene({offset: 0, duration: 200}).setTween(tween2).addTo(controller);
+var scene3 = new ScrollMagic.Scene({offset: 0, duration: 200}).setTween(tween3).addTo(controller);
 
 
 

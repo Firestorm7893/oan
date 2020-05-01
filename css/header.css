@@ -129,7 +129,6 @@ body {
     -webkit-transition:all 0.3s ease-in-out;
 }
 
-
 .cursor {
 	white-space: nowrap;
 	position: absolute;
@@ -137,7 +136,10 @@ body {
 	left:450px;
 	font-size: 120px;
 	font-weight: bold;
+	opacity: 1 !important;
 }
+
+
 .cursor .fixed{
 	white-space: nowrap;
 	font-size: 121px;
@@ -193,12 +195,24 @@ body {
 }
 
 .logo {
+	display:block;
 	position: absolute;
-	padding-top: 30px;
-	padding-left: 100px;
-	top: -10px;
-	left: -30px;
+	top:  18px;
+	left: 278px;
+	margin-left: -200px;
+	
 }
+
+@media screen and (max-width: 1024px) {
+    .cursor {
+        opacity: 0 !important;
+    }
+	
+	.logo {
+		left: 50% !important;
+	}
+}
+
 /*Eyes css*/
 .move-area{
   width: 100vw;
