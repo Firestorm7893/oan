@@ -4,7 +4,7 @@ const TweenLite = window.TweenLite;
 
 
 var controller = new ScrollMagic.Controller();
-var tween = TweenMax.to("#logotarget", 1, {backgroundColor: "none", width:"-=300", y:"-=30"});
+var tween = TweenMax.to("#logotarget", 1, {backgroundColor: "none", width:"-=300", y:"-=20"});
 
 var tween2 = TweenMax.to("#site-navigation", 1, {height: "-=173"});
 var tween3 = TweenMax.to("#menu-menu_list", 1, {y: "-=173"});
@@ -35,7 +35,7 @@ function moveCircle(e) {
 	TweenLite.to($circle, 0.3, {
 	  css: {
 		left: e.pageX-15,
-		top: e.pageY
+		top: e.pageY-15
 	  }
 	});
 }
