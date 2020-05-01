@@ -91,6 +91,10 @@ body {
 	position: relative;
 }
 
+.menu {
+		opacity: 1 !important;
+}
+
 .main-navigation li:last-child a {
 	
 	background: none;
