@@ -32,7 +32,7 @@ for (i = 0; i < btns.length; i++) {
 document.getElementById('textanim').innerHTML = " ";
 setInterval(replacetext, 100);
 
-var textArray = ["BENVENUTO", "NOVITA'", "SEMPLICE", "MORTE"];
+var textArray = ["BENVENUTO", "NUOVO'", "SEMPLICE", "DIVERTENTE", "STIMOLANTE", "CREATIVO"];
 var index = 0;
 var direction = false;
 var pause = 0;
