@@ -97,12 +97,12 @@
 	margin: 0px;
 }
 .visore p {
-	color: grey;
+	color: white;
 	float: right;
 	position: absolute;
 	font-family: 'abeatbykai';
 	font-size: 60px;
 	width: 50%;
 	right: 0px;
-	top: 20%;
+	top: 25%;
 }
