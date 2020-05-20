@@ -4,21 +4,36 @@
 .presentazione {
 	font-size: 120%
 }
+.Containing {
+	padding-top: 11px;
+}
 .person {
 	display: inline-block;
 	position: relative;
 	text-align: center;
-	padding-top: 5px;
+
+}
+.sx {
+	float:left;
+}
+
+.dx {
+	float:right;
 }
 
 .person p {
 	text-align: left;
-	margin: 0 auto;
+	vertical-align: middle;
 	position:relative;
 	font-size: 110%;
 	line-height: 90%;
 	display:inline-block;	
 	width: 500px;
+	padding-left: 30px;
+}
+.person img {
+	border-radius: 20px;
+	box-shadow: 0px 5px 20px -5px black;
 }
 
 .groups {
