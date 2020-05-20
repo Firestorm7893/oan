@@ -1,0 +1,45 @@
+/* CSS Document */
+@import "./fonts.css";
+
+.ourproject {
+	background-image: url("../img/sfondo.png");
+	display:inline-block;	
+	position: relative;
+	width: 100%;
+	box-shadow: 0px 5px 20px -5px black;
+	text-align: center;
+	background-size: cover;
+}
+.ourproject p {
+	text-align: left;
+	margin: 0 auto;
+	color: white;
+	/*	background-color: white;*/
+	font-family: 'abeatbyKai';
+	font-size: 1000%;
+	line-height: 90%;
+/*	box-shadow: 10px 10px 20px -7px grey;*/
+	display:inline-block;	
+	width: 500px;
+/*	padding: 20px;*/
+/*	border-radius: 30px;*/
+/*	border: 2px outset #3F66FF;*/
+}
+.odd {
+	position: relative;
+	display:inline-block;
+	width: 25%;
+	height: 200px;
+	background-color: #3f66ff;
+	padding: 0;
+	margin: 0 0;
+}
+.even {	
+	background-color: black;
+	padding: 0;
+	margin: 0 0;
+	position: relative;
+	display: inline-block;
+	width: 25%;
+	height: 200px;
+}
