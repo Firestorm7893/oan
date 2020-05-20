@@ -102,4 +102,13 @@
 	background-color: black;
 	z-index: 10;
 	opacity: 50%;
+	color:white;
+}
+
+.naoamico .backdrop p {
+	padding: 25px;
+	font-family: 'abeatbyKai';
+	font-size: 50px;
+	text-align: center;
+	top: 10px;
 }
