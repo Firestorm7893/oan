@@ -46,6 +46,7 @@ body {
 
 /*Navbar style*/
 .main-navigation {
+	z-index:  1000;
 	font-family: 'abeatbyKai'!important;
 	position: fixed;
     clear: both;
