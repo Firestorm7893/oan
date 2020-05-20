@@ -92,6 +92,7 @@
 
 }
 .visore{
+	top: 10px;
 	position: relative;
 	background-color: black;
 	margin: 0px;
@@ -105,7 +106,7 @@
 	float: right;
 	position: relative;
 	font-family: 'abeatbykai';
-	font-size: 300%;
+	font-size: 2vw;
 	width: 50%;
 	right: 0px;
 	top: 150px;
