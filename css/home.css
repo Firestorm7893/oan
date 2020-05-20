@@ -81,7 +81,6 @@
 	background-size: cover;
   	background-repeat: no-repeat;
 	background-position: center;
-	z-index: -1;
 }
 
 .naoamico{
@@ -89,20 +88,25 @@
  height: 400px; 
  width: 100%;
  overflow: hidden;
-	top: 0px;
+ top: 0px;
+
 }
 .visore{
 	position: relative;
 	background-color: black;
 	margin: 0px;
+	 z-index: -1;
+
 }
 .visore p {
+	margin: 0;
+	display: flex;
 	color: white;
 	float: right;
-	position: absolute;
+	position: relative;
 	font-family: 'abeatbykai';
-	font-size: 60px;
+	font-size: 300%;
 	width: 50%;
 	right: 0px;
-	top: 25%;
+	top: 150px;
 }
