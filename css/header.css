@@ -1,7 +1,7 @@
 @import "/css/fonts.css";
 
 * {
-	font-family: 'abeatbyKai';
+	font-family: 'UbuntuLatin';
 }
 
 body {
@@ -46,10 +46,10 @@ body {
 
 /*Navbar style*/
 .main-navigation {
+	font-family: 'abeatbyKai'!important;
 	position: fixed;
     clear: both;
     font-weight: 300;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     text-align: center;
     background: white;
