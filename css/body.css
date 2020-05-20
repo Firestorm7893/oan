@@ -11,3 +11,6 @@
 	width: 90px;
 	margin: 20px;
 }
+img {
+	vertical-align:top;
+}
