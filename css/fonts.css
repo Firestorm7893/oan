@@ -1,21 +1,21 @@
 @font-face {
     font-family: 'abeatbyKai';
-    src: url('/font/abeatbykai/AbeatbyKai.eot');
-    src: url('/font/abeatbykai/AbeatbyKai.eot?#iefix') format('embedded-opentype'),
-        url('/font/abeatbykai/AbeatbyKai.woff2') format('woff2'),
-        url('/font/abeatbykai/AbeatbyKai.woff') format('woff'),
-        url('/font/abeatbykai/AbeatbyKai.ttf') format('truetype'),
-        url('/font/abeatbykai/AbeatbyKai.svg#AbeatbyKai') format('svg');
+    src: url('/oan/font/abeatbykai/AbeatbyKai.eot');
+    src: url('/oan/font/abeatbykai/AbeatbyKai.eot?#iefix') format('embedded-opentype'),
+        url('/oan/font/abeatbykai/AbeatbyKai.woff2') format('woff2'),
+        url('/oan/font/abeatbykai/AbeatbyKai.woff') format('woff'),
+        url('/oan/font/abeatbykai/AbeatbyKai.ttf') format('truetype'),
+        url('/oan/font/abeatbykai/AbeatbyKai.svg#AbeatbyKai') format('svg');
     font-weight: normal;
     font-style: normal;
 	
 	font-family: 'UbuntuLatin';
-    src: url('/font/UbuntuLatin/ubuntu-v14-latin-regular.eot');
-    src: url('/font/UbuntuLatin/ubuntu-v14-latin-regular.eot#iefix') format('embedded-opentype'),
-        url('/font/UbuntuLatin/ubuntu-v14-latin-regular.woff2') format('woff2'),
-        url('/font/UbuntuLatin/ubuntu-v14-latin-regular.woff') format('woff'),
-        url('/font/UbuntuLatin/ubuntu-v14-latin-regular.ttf') format('truetype'),
-        url('/font/UbuntuLatin/ubuntu-v14-latin-regular.svg#UbuntuLatin') format('svg');
+    src: url('/oan/font/UbuntuLatin/ubuntu-v14-latin-regular.eot');
+    src: url('/oan/font/UbuntuLatin/ubuntu-v14-latin-regular.eot#iefix') format('embedded-opentype'),
+        url('/oan/font/UbuntuLatin/ubuntu-v14-latin-regular.woff2') format('woff2'),
+        url('/oan/font/UbuntuLatin/ubuntu-v14-latin-regular.woff') format('woff'),
+        url('/oan/font/UbuntuLatin/ubuntu-v14-latin-regular.ttf') format('truetype'),
+        url('/oan/font/UbuntuLatin/ubuntu-v14-latin-regular.svg#UbuntuLatin') format('svg');
     font-weight: normal;
     font-style: normal;
 }
