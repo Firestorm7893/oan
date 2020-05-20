@@ -38,6 +38,13 @@
 	background-color: #3f66ff;
 	padding: 0;
 	margin: 0 0;
+
+}
+.containercontainer {
+	width: 100%;
+	box-shadow: 0px 5px 20px -5px black;
+	height: 200px;
+
 }
 
 .container .divtitle {
@@ -66,10 +73,33 @@
 }
 
 .naoamico {
+	position: relative;
+	top: 200px;
 	width: 100%;
-	height: 200px;
+	height: 600px;
 	background-image: url("../img/naoamico.png");
 	background-size: cover;
   	background-repeat: no-repeat;
+	background-position: center;
+	z-index: -1;
 }
 
+.naoamico{
+ position: relative;
+ height: 400px; 
+ width: 100%;
+ overflow: hidden;
+	top: 0px;
+}
+.naoamico .naoimage {
+	position: relative;
+	top: -200px;
+}
+.naoamico .backdrop {
+	float: right;
+	width: 50%;
+	height: 100%;
+	background-color: black;
+	z-index: 10;
+	opacity: 50%;
+}
