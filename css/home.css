@@ -91,25 +91,18 @@
  overflow: hidden;
 	top: 0px;
 }
-.naoamico .naoimage {
+.visore{
 	position: relative;
-	top: -200px;
-}
-.naoamico .backdrop {
-	float: right;
-	width: 50%;
-	height: 100%;
 	background-color: black;
-	z-index: 10;
-	opacity: 50%;
-	color:white;
+	margin: 0px;
 }
-
-.naoamico .backdrop p {
-	padding: 25px;
-	font-family: 'abeatbyKai';
-	font-size: 50px;
-	text-align: center;
-	top: 10px;
-	opacity: 1;
+.visore p {
+	color: grey;
+	float: right;
+	position: absolute;
+	font-family: 'abeatbykai';
+	font-size: 60px;
+	width: 50%;
+	right: 0px;
+	top: 20%;
 }
