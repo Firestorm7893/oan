@@ -297,7 +297,8 @@ body {
 
 .contattiBtn {
   border: none;
-  color: white;
+  color: black;
+  background-color: gray; 
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -309,7 +310,8 @@ body {
 
 .contattiBtn :hover{
   border: none;
-  color: gray;
+  color: #3f66ff;
+  background-color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
