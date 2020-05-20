@@ -94,6 +94,9 @@ body {
 .menu {
 		opacity: 1 !important;
 }
+.cursorPointer {
+	cursor: pointer;
+}
 
 .main-navigation li:last-child a {
 	
