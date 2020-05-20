@@ -136,7 +136,7 @@ body {
 .cursor {
 	white-space: nowrap;
 	position: absolute;
-	top: 70px;
+	top: 52px;
 	left:450px;
 	font-size: 120px;
 	font-weight: bold;
@@ -159,6 +159,10 @@ body {
 	font-weight: normal;
 	overflow-x: hidden;
 
+}
+
+.animation {
+	padding-left: 25px;
 }
 
 
@@ -269,6 +273,12 @@ body {
   top: 0px;
   opacity: 0;
   animation:blinking 10s infinite;
+}
+
+.spacer {
+	height: 250px;
+	
+	
 }
 
 @keyframes blinking{
