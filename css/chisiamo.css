@@ -43,7 +43,7 @@
 	text-align: left;
 	vertical-align: middle;
 	position:relative;
-	font-size: 3vw;
+	font-size: 50px;
 	display:inline-block;	
 	width: 400px;
 	padding: 30px;
@@ -59,6 +59,10 @@
 
 .dx {
 	float:right;
+}
+
+@media (min_width: 600px){
+	
 }
 .person img {
 	border-radius: 20px;
