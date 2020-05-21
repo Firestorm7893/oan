@@ -1,6 +1,10 @@
 /* CSS Document */
 @import "./fonts.css";
 
+* {
+	font-family: 'UbuntuLatin'
+}
+
 .presentazione {
 	font-size: 120%
 }
@@ -11,10 +15,14 @@
 	display: inline-block;
 	position: relative;
 	text-align: center;
-
+	width: 100vw;
+	padding: 30px;
+	border-radius: 20px;
+	
 }
 .sx {
 	float:left;
+	background-color:#3f66ff;
 }
 
 .dx {
@@ -22,14 +30,15 @@
 }
 
 .person p {
+	margin: auto;
 	text-align: left;
 	vertical-align: middle;
 	position:relative;
-	font-size: 110%;
-	line-height: 90%;
+	font-size: 3vw;
 	display:inline-block;	
-	width: 500px;
-	padding-left: 30px;
+	width: 400px;
+	padding: 30px;
+	height: 100%;
 }
 .person img {
 	border-radius: 20px;
