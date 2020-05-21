@@ -8,7 +8,7 @@
 .presentazione {
 	width: 100%;
 	background-color: #213482;
-	height: 250px;
+	height: -100vw;
 	margin-bottom:  20px;
 	box-shadow: 0px 0px 10px 5px black;
 }
@@ -61,8 +61,11 @@
 	float:right;
 }
 
-@media (min_width: 600px){
-	
+@media (max_width: 800px){
+	.presentazione {
+		height: 600px;
+		margin: 0 0;
+	}
 }
 .person img {
 	border-radius: 20px;
