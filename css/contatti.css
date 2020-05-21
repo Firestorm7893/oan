@@ -10,6 +10,7 @@ body {
 	background-image: url("../img/contatti.png");
 	background-position: 50% 0%;
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .lolxd a {
