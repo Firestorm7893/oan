@@ -3,6 +3,13 @@
 
 p, a {
 	font-family: 'UbuntuLatin';
+	color: white;
+}
+
+body {
+	background-image: url("../img/contatti.png");
+	background-position: 50% 0%;
+	background-repeat: no-repeat;
 }
 
 .lolxd a {
@@ -43,6 +50,7 @@ p, a {
 	width: 70%;
 	margin: 0 auto;
 	padding: 20px;
+/*	text-shadow: 0px 5px 10px black;*/
 }
 
 .container {
