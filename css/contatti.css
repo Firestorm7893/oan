@@ -1,26 +1,29 @@
 /* CSS Document */
 @import "./fonts.css";
 
-p {
+p, a {
 	font-family: 'UbuntuLatin';
 }
 
-.button {
+a {
+  display: block;
   background-color: #3f66ff;
-  border: none;
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
   cursor: pointer;
-border-radius: 10px;
+  border-radius: 10px;
+  position: relative;
+  margin: 10px auto;
 }
 
-.linksquadra {
-	align-content: center;
+.lolxd {
+	position: absolute;
+	left: 50%;
+	width: 30%;
+	margin-left: -15%;
 }
 
 .button:hover {
@@ -40,6 +43,8 @@ border-radius: 10px;
 	width: 70%;
 	margin: 0 auto;
 	padding: 20px;
-	
-	
+}
+
+.container {
+	width: 100%;
 }
